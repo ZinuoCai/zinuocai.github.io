@@ -252,7 +252,7 @@ def standardconf():
   </div>
   
   [lastupdated]
-  Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+  Last updated | by Zinuo Cai.
 
   [sourcelink]
   (<a href="|">source</a>)
@@ -1476,7 +1476,7 @@ def procfile(f):
     out(f.outf, f.conf['footerstart'])
     if showlastupdated:
       if showlastupdatedtime:
-        ts = '%Y-%m-%d %H:%M:%S %Z'
+        ts = '%Y-%m-%d %H:%M:%S'
       else:
         ts = '%Y-%m-%d'
       s = time.strftime(ts, time.localtime(time.time()))
