@@ -1476,7 +1476,7 @@ def procfile(f):
     out(f.outf, f.conf['footerstart'])
     if showlastupdated:
       if showlastupdatedtime:
-        ts = '%Y-%m-%d %H:%M:%S'
+        ts = '%Y-%m-%d %H:%M'
       else:
         ts = '%Y-%m-%d'
       s = time.strftime(ts, time.localtime(time.time()))
