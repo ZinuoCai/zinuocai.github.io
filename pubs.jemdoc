@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{pubs.html}, nofooter
+# jemdoc: menu{MENU}{pubs.html}
 == 论文发表
 
 === 会议论文
@@ -17,4 +17,4 @@
 - \[J4\] Shanxing Pan, Hongyu Zhao, *Zinuo Cai*, Dongmei Li, Ruhui Ma, Haibing Guan. Sustainable serverless computing with cold-start optimization and automatic workflow resource scheduling. IEEE Transactions on Sustainable Computing. 2023. (+CCF-C+, +SCI Q2+)
 - \[J3\] *Zinuo Cai*, Zebin Chen, Zihan Liu, Quanmin Xie, Ruhui Ma, Haibing Guan. RIDIC: Real-Time Intelligent Transportation System With Dispersed Computing. IEEE Transactions on Intelligent Transportation Systems. 2023. (+SCI Q2+)
 - \[J2\] Hongyu Zhao, Shanxing Pan, *Zinuo Cai*, Xinglei Chen, Lingxiao Jin, Honghao Gao, Shaohua Wan, Ruhui Ma, Haibing Guan. faaShark: An end-to-end network traffic analysis system atop serverless computing platforms. 2023. (+SCI Q2+)
-- \[J1\]*Zinuo Cai*, Bojun Ren, Ruhui Ma, Haibing Guan, Mengke Tian, Yong Wang. GUARDIAN: A Hardware-Assisted Distributed Framework to Enhance Deep Learning Security. IEEE Transactions on Computational Social Systems. 2023. (+SCI Q2+)
+- \[J1\] *Zinuo Cai*, Bojun Ren, Ruhui Ma, Haibing Guan, Mengke Tian, Yong Wang. GUARDIAN: A Hardware-Assisted Distributed Framework to Enhance Deep Learning Security. IEEE Transactions on Computational Social Systems. 2023. (+SCI Q2+)
