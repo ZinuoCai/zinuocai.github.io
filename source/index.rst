@@ -6,9 +6,9 @@
    :align: center
 
 | 博士研究生,
-| 云计算智能融合团队,
-| 计算机工程与科学系,
-| 上海交通大学
+| `云计算智能融合团队 <https://aisigsjtu.github.io/>`_,
+| `计算机工程与科学系 <https://www.cs.sjtu.edu.cn/>`_,
+| `上海交通大学 <https://www.sjtu.edu.cn/>`_
 
 | `电子邮箱 <kingczn1314@sjtu.edu.cn>`_
 | `Github <https://github.com/ZinuoCai>`_

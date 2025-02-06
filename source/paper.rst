@@ -13,6 +13,10 @@
 期刊论文
 ~~~~~~~~~~~~
 
+[J13] Liwei Lin, Rongbo Ma, Zejian Wang, **Zinuo Cai**, Haochen Xu, Baoheng Zhang, Ruhui Ma, Rajkumar Buyya. HWDSQP: a Historical Weighted and Dynamic Scheduling Quantum Protocol to Enhance Communication Reliability. *IEEE Journal on Selected Areas in Communications*. 2025. (:blue:`CCF-A, SCI Q1`)
+
+[J12] Jiantao Zhang, Bojun Ren, Yicheng Fu, Rongbo Ma, **Zinuo Cai**, Weishan Zhang, Ruhui Ma, Jinshan Sun. HyperTuneFaaS: A Serverless Framework for Hyperparameter Tuning in Image Processing Models. *Displays*. 2025.
+
 [J11] Xinglei Chen, **Zinuo Cai**, Hanwen Zhang, Ruhui Ma, Rajkumar Buyya. FasDL: An Efficient Serverless-Based Training Architecture with Communication Optimization and Resource Configuration. *IEEE Transactions on Computers*. 2024. (:blue:`CCF-A, 共同一作`)
 
 [J10] Renjun Zhang, Tianming Zhang, **Zinuo Cai**, Dongmei Li, Ruhui Ma, Rajkumar Buyya. MemoriaNova: Optimizing Memory-Aware Model Inference on Edge Devices. *ACM Transactions on Architecture and Code Optimization*. 2024. (:blue:`CCF-A`)
