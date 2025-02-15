@@ -4,6 +4,8 @@
 会议论文
 ~~~~~~~~~~~~
 
+[C4] 	Lingxiao Jin, **Zinuo Cai**, Zebin Chen, Hongyu Zhao and Ruhui Ma. AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows. *Design Automation Conference*. 2025. (:blue:`CCF-A, 共同一作`)
+
 [C3] Xueyuan Han, **Zinuo Cai**, Yichu Zhang, Chongxin Fan, Junhan Liu, Ruhui Ma, Rajkumar Buyya. Hermes: Memory-Efficient Pipeline Inference for Large Models on Edge Devices. *IEEE International Conference on Computer Design*. 2024. (:blue:`CCF-B`)
 
 [C2] Jianyong Yuan, Jiayi Zhang, **Zinuo Cai**, Junchi Yan. Towards Variance Reduction for Reinforcement Learning of Industrial Decision-making Tasks: A Bi-Critic based Demand-Constraint Decoupling Approach. *Proceedings of ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)*. 2024. (:blue:`CCF-A`)
