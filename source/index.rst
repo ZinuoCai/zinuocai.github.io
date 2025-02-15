@@ -25,6 +25,8 @@
 新闻速递
 ~~~~~~~~~~~~
 
+* [2024/02] 1篇论文被期刊DAC 2025 (CCF-A)接收！
+
 * [2024/01] 1篇论文被期刊JSAC (CCF-A)接收！
 
 * [2024/09] 1篇论文被期刊TC (CCF-A)接收！
@@ -37,6 +39,8 @@
 
 代表论文
 ~~~~~~~~~~~~
+
+* Lingxiao Jin, **Zinuo Cai**, Zebin Chen, Hongyu Zhao and Ruhui Ma. AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows. *Design Automation Conference*. 2025. (:blue:`CCF-A, 共同一作`)
 
 * Xinglei Chen, **Zinuo Cai**, Hanwen Zhang, Ruhui Ma, Rajkumar Buyya. FasDL: An Efficient Serverless-Based Training Architecture with Communication Optimization and Resource Configuration. *IEEE Transactions on Computers*. 2024. (:blue:`CCF-A, 共同一作`)
 
