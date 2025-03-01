@@ -25,7 +25,9 @@
 新闻速递
 ~~~~~~~~~~~~
 
-* [2024/02] 1篇论文被期刊DAC 2025 (CCF-A)接收！
+* [2024/03] 1篇论文被期刊TPDS (CCF-A)接收！
+
+* [2024/02] 1篇论文被会议DAC 2025 (CCF-A)接收！
 
 * [2024/01] 1篇论文被期刊JSAC (CCF-A)接收！
 
@@ -39,6 +41,8 @@
 
 代表论文
 ~~~~~~~~~~~~
+
+* Junhan Liu, **Zinuo Cai**, Yumou Liu, Hao Li, Zongpu Zhang, Ruhui Ma, Rajkumar Buyya. SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling. *IEEE Transactions on Parallel and Distributed Systems*. 2025. (:blue:`CCF-A, SCI Q1, 共同一作`)
 
 * Lingxiao Jin, **Zinuo Cai**, Zebin Chen, Hongyu Zhao and Ruhui Ma. AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows. *Design Automation Conference*. 2025. (:blue:`CCF-A, 共同一作`)
 
