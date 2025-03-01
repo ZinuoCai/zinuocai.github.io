@@ -15,6 +15,8 @@
 期刊论文
 ~~~~~~~~~~~~
 
+[J14] Junhan Liu, **Zinuo Cai**, Yumou Liu, Hao Li, Zongpu Zhang, Ruhui Ma, Rajkumar Buyya. SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling. *IEEE Transactions on Parallel and Distributed Systems*. 2025. (:blue:`CCF-A, SCI Q1, 共同一作`)
+
 [J13] Liwei Lin, Rongbo Ma, Zejian Wang, **Zinuo Cai**, Haochen Xu, Baoheng Zhang, Ruhui Ma, Rajkumar Buyya. HWDSQP: a Historical Weighted and Dynamic Scheduling Quantum Protocol to Enhance Communication Reliability. *IEEE Journal on Selected Areas in Communications*. 2025. (:blue:`CCF-A, SCI Q1`)
 
 [J12] Jiantao Zhang, Bojun Ren, Yicheng Fu, Rongbo Ma, **Zinuo Cai**, Weishan Zhang, Ruhui Ma, Jinshan Sun. HyperTuneFaaS: A Serverless Framework for Hyperparameter Tuning in Image Processing Models. *Displays*. 2025.
