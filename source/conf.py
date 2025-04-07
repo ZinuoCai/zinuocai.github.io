@@ -24,7 +24,9 @@ language = 'zh_CN'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinxdoc'
+html_permalinks_icon = '<span>#</span>'
+html_theme = 'sphinxawesome_theme'
+
 globaltoc_collapse = True
 html_last_updated_fmt = '%Y-%m-%d %H:%M'
 html_static_path = ['_static']
