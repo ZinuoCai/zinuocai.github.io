@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '蔡子诺'
-copyright = '2025, Zinuo Cai'
+copyright = '2025, Zinuo Cai.'
 author = 'Zinuo Cai'
 release = ''
 

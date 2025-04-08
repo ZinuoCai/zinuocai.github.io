@@ -1,2 +1,2 @@
 sphinx
-sphinx-conestack-theme
+sphinxawesome-theme
