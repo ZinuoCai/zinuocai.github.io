@@ -1,0 +1,40 @@
+# jemdoc: menu{MENU}{index.html}
+==蔡子诺
+
+~~~
+{}{img_left}{zinuocai.jpg}{alt text}{120}{168}{}
+博士研究生，\n
+[https://aisigsjtu.github.io/ 云计算智能融合团队]，\n
+[https://www.cs.sjtu.edu.cn/ 计算机科学与工程系]，\n
+[https://www.sjtu.edu.cn/ 上海交通大学]，\n
+[https://github.com/ZinuoCai Github]，\n
+[https://scholar.google.com/citations?user=VfJwNnoAAAAJ Google Scholar]，\n
+[https://orcid.org/my-orcid?orcid=0000-0001-9373-8474 Ocrid]，\n
+邮箱: /kingczn1314/ \[@\] /sjtu/ \[DOT\] /edu/ \[DOT\] /cn/
+~~~
+
+== 教育经历
+
+- \[2017\/9-2021\/6\] 上海交通大学，电子信息与电气工程学院，软件学院，学士
+- \[2021\/9-\] 上海交通大学，电子信息与电气工程学院，计算机科学与工程系，博士研究生
+
+== 研究方向
+
+- 服务器无感知计算  
+- 大模型推理优化
+- 量子计算
+
+== 新闻速递
+
+- \[2025/03\] 1篇论文被期刊TPDS (CCF-A)接收！
+- \[2025/02\] 1篇论文被会议DAC 2025 (CCF-A)接收！
+- \[2025/01\] 1篇论文被期刊JSAC (CCF-A)接收！
+- \[2024/09\] 1篇论文被期刊TC (CCF-A)接收！
+- [news.html ...]
+
+== 代表性论文
+
+. Junhan Liu, {{<span class="bold">Zinuo Cai</span>}}, Yumou Liu, Hao Li, Zongpu Zhang, Ruhui Ma, Rajkumar Buyya. SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling. IEEE Transactions on Parallel and Distributed Systems. 2025. (CCF-A, 共同一作)
+. Lingxiao Jin, {{<span class="bold">Zinuo Cai</span>}}, Zebin Chen, Hongyu Zhao and Ruhui Ma. AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows. Design Automation Conference. 2025. (CCF-A, 共同一作)
+. Xinglei Chen, {{<span class="bold">Zinuo Cai</span>}}, Hanwen Zhang, Ruhui Ma, Rajkumar Buyya. FasDL: An Efficient Serverless-Based Training Architecture with Communication Optimization and Resource Configuration. IEEE Transactions on Computers. 2024. (CCF-A, 共同一作)
+. {{<span class="bold">Zinuo Cai</span>}}, Zebin Chen, Ruhui Ma, Haibing Guan. SMSS: Stateful Model Serving in Metaverse With Serverless Computing and GPU Sharing. IEEE Journal on Selected Areas in Communications. 2023. (CCF-A)
