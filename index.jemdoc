@@ -26,6 +26,7 @@
 
 == 新闻速递
 
+- \[2025/06\] 1篇论文被期刊TACO (CCF-A)接收！
 - \[2025/03\] 1篇论文被期刊TPDS (CCF-A)接收！
 - \[2025/02\] 1篇论文被会议DAC 2025 (CCF-A)接收！
 - \[2025/01\] 1篇论文被期刊JSAC (CCF-A)接收！
@@ -34,6 +35,7 @@
 
 == 代表性论文
 
+. Lingxiao Jin, {{<span class="bold">Zinuo Cai</span>}}, Haoxin Wang, Zongpu Zhang, Ruhui Ma, Haibing Guan, Yuan Liu, Rajkumar Buyya. Ephemera: Accelerating I/O-Intensive Serverless Workloads with a Harvested In-memory File System. ACM Transactions on Architecture and Code Optimization. 2025. (CCF-A, 共同一作)
 . Junhan Liu, {{<span class="bold">Zinuo Cai</span>}}, Yumou Liu, Hao Li, Zongpu Zhang, Ruhui Ma, Rajkumar Buyya. SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling. IEEE Transactions on Parallel and Distributed Systems. 2025. (CCF-A, 共同一作)
 . Lingxiao Jin, {{<span class="bold">Zinuo Cai</span>}}, Zebin Chen, Hongyu Zhao and Ruhui Ma. AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows. Design Automation Conference. 2025. (CCF-A, 共同一作)
 . Xinglei Chen, {{<span class="bold">Zinuo Cai</span>}}, Hanwen Zhang, Ruhui Ma, Rajkumar Buyya. FasDL: An Efficient Serverless-Based Training Architecture with Communication Optimization and Resource Configuration. IEEE Transactions on Computers. 2024. (CCF-A, 共同一作)
