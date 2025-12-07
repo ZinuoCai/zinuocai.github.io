@@ -2,48 +2,111 @@
 == 论文发表
 
 === 会议论文
-\[C4\] Lingxiao Jin, {{<span class="underline">Zinuo Cai</span>}}, Zebin Chen, Hongyu Zhao and Ruhui Ma. AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows. Design Automation Conference. 2025. {{<span class="blue">(CCF-A, 共同一作)</span>}}
+- [https://dl.acm.org/doi/abs/10.1109/DAC63849.2025.11132894 AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows] \n
+(CCF-A) \n
+Lingxiao Jin\#, *Zinuo Cai\#*, Zebin Chen, Hongyu Zhao and Ruhui Ma \n
+in Proc. of the Design Automation Conference (DAC), 2025.
 
-\[C3\] Xueyuan Han, {{<span class="underline">Zinuo Cai</span>}}, Yichu Zhang, Chongxin Fan, Junhan Liu, Ruhui Ma, Rajkumar Buyya. Hermes: Memory-Efficient Pipeline Inference for Large Models on Edge Devices. IEEE International Conference on Computer Design. 2024. {{<span class="blue">(CCF-B)</span>}}
+- [https://ieeexplore.ieee.org/document/10818154 Hermes: Memory-Efficient Pipeline Inference for Large Models on Edge Devices] \n
+(CCF-B) \n
+Xueyuan Han, *Zinuo Cai*, Yichu Zhang, Chongxin Fan, Junhan Liu, Ruhui Ma, Rajkumar Buyya \n
+in Proc. of the IEEE International Conference on Computer Design (ICCD), 2024.
 
-\[C2\] Jianyong Yuan, Jiayi Zhang, {{<span class="underline">Zinuo Cai</span>}}, Junchi Yan. Towards Variance blueuction for Reinforcement Learning of Industrial Decision-making Tasks: A Bi-Critic based Demand-Constraint Decoupling Approach. Proceedings of ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). 2024. {{<span class="blue">(CCF-A)</span>}}
+- [https://dl.acm.org/doi/10.1145/3580305.3599527 Towards Variance Reduction for Reinforcement Learning of Industrial Decision-making Tasks: A Bi-Critic based Demand-Constraint Decoupling Approach] \n
+(CCF-A) \n
+Jianyong Yuan, Jiayi Zhang, *Zinuo Cai*, Junchi Yan \n
+in Proc. of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2024.
 
-\[C1\] {{<span class="underline">Zinuo Cai</span>}}, Jianyong Yuan, Yang Hua, Tao Song, Hao Wang, Zhengui Xue, Ningxin Hu, Jonathan Ding, Ruhui Ma, Mohammad Reza Haghighat, Haibing Guan. Themis: A Fair Evaluation Platform for Computer Vision Competitions. International Joint Conferences on Artificial Intelligence (IJCAI). 2021. {{<span class="blue">(CCF-A)</span>}}
+- [https://www.ijcai.org/proceedings/2021/0083.pdf Themis: A Fair Evaluation Platform for Computer Vision Competitions] \n
+(CCF-A) \n
+*Zinuo Cai\#*, Jianyong Yuan\#, Yang Hua, Tao Song, Hao Wang, Zhengui Xue, Ningxin Hu, Jonathan Ding, Ruhui Ma, Mohammad Reza Haghighat, Haibing Guan \n
+in Proc. of the International Joint Conference on Artificial Intelligence (IJCAI), 2021.
 
 === 期刊论文
+- QFI-Opt: Communication-Efficient Quantum Federated Learning via Quantum Fisher Information \n
+(CCF-B) \n
+Rui Zhang, Yucheng Wang, Xing He, *Zinuo Cai\**, Yicheng Di, Jiayu Bao, Jiansong Fan, Zhongle Qu \n
+in Software: Practice and Experience (SPE), 2025.
 
-\[J18\] Rui Zhang, Yucheng Wang, Xing He, {{<span class="underline">Zinuo Cai</span>}}, Yicheng Di, Jiayu Bao, Jiansong Fan, Zhongle Qu. QFI-Opt: Communication-Efficient Quantum Federated Learning via Quantum Fisher Information. Software: Practice and Experience. 2025. {{<span class="blue">(CCF-B, 通讯作者)</span>}}
+- FedACL: A Collaborative Federated Fine-Tuning Framework for Large Language Models with AWLoRA and Contrastive Learning \n
+(中科院2区) \n
+Zijie Zhao\#, Zhenshuo Zhang\#, *Zinuo Cai*, Yiming Qiang, Tianqi Wu, Baoheng Zhang, Ruhui Ma, Yuan Liu \n
+in IEEE Transactions on Computational Social Systems (TCSS), 2025.
 
-\[J17\] Zijie Zhao, Zhenshuo Zhang, {{<span class="underline">Zinuo Cai</span>}}, Yiming Qiang, Tianqi Wu, Baoheng Zhang, Ruhui Ma, Yuan Liu. FedACL: A Collaborative Federated Fine-Tuning Framework for Large Language Models with AWLoRA and Contrastive Learning. IEEE Transactions on Computational Social Systems. 2025. {{<span class="blue">(中科院2区)</span>}}
+- HeShare: Energy-Aware and Efficient Multi-Task GPU Sharing in Heterogeneous GPU-based Computing Systems \n
+(CCF-A) \n
+Zhuolong Jiang, *Zinuo Cai*, Hongyu Zhao, Baoheng Zhang, Tianqi Wu, Yiming Qiang, Ruhui Ma, Haibing Guan, Rajkumar Buyya \n
+in IEEE Transactions on Computers (TC), 2025.
 
-\[J16\] Zhuolong Jiang, {{<span class="underline">Zinuo Cai</span>}}, Hongyu Zhao, Baoheng Zhang, Tianqi Wu, Yiming Qiang, Ruhui Ma, Haibing Guan, Rajkumar Buyya. HeShare: Energy-Aware and Efficient Multi-Task GPU Sharing in Heterogeneous GPU-based Computing Systems. IEEE Transactions on Computers. 2025. {{<span class="blue">(CCF-A)</span>}}
+- [https://dl.acm.org/doi/10.1145/3747846 Ephemera: Accelerating I\/O-Intensive Serverless Workloads with a Harvested In-memory File System] \n
+(CCF-A) \n
+Lingxiao Jin\#, *Zinuo Cai\#*, Haoxin Wang, Zongpu Zhang, Ruhui Ma, Haibing Guan, Yuan Liu, Rajkumar Buyya \n
+in ACM Transactions on Architecture and Code Optimization (TACO), 2025.
 
-\[J15\] Lingxiao Jin, {{<span class="underline">Zinuo Cai</span>}}, Haoxin Wang, Zongpu Zhang, Ruhui Ma, Haibing Guan, Yuan Liu, Rajkumar Buyya. Ephemera: Accelerating I/O-Intensive Serverless Workloads with a Harvested In-memory File System. ACM Transactions on Architecture and Code Optimization. 2025. {{<span class="blue">(CCF-A, 共同一作)</span>}}
+- [https://ieeexplore.ieee.org/document/10912752 SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling] \n
+(CCF-A) \n
+Junhan Liu\#, *Zinuo Cai\#*, Yumou Liu, Hao Li, Zongpu Zhang, Ruhui Ma, Rajkumar Buyya \n
+in IEEE Transactions on Parallel and Distributed Systems (TPDS), 2025.
 
-\[J14\] Junhan Liu, {{<span class="underline">Zinuo Cai</span>}}, Yumou Liu, Hao Li, Zongpu Zhang, Ruhui Ma, Rajkumar Buyya. SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling. IEEE Transactions on Parallel and Distributed Systems. 2025. {{<span class="blue">(CCF-A, 共同一作)</span>}}
+- [https://ieeexplore.ieee.org/document/10993400 HWDSQP: a Historical Weighted and Dynamic Scheduling Quantum Protocol to Enhance Communication Reliability] \n
+(CCF-A) \n
+Liwei Lin\#, Rongbo Ma\#, Zejian Wang, *Zinuo Cai*, Haochen Xu, Baoheng Zhang, Ruhui Ma, Rajkumar Buyya \n
+in IEEE Journal on Selected Areas in Communications (JSAC), 2025.
 
-\[J13\] Liwei Lin, Rongbo Ma, Zejian Wang, {{<span class="underline">Zinuo Cai</span>}}, Haochen Xu, Baoheng Zhang, Ruhui Ma, Rajkumar Buyya. HWDSQP: a Historical Weighted and Dynamic Scheduling Quantum Protocol to Enhance Communication Reliability. IEEE Journal on Selected Areas in Communications. 2025. {{<span class="blue">(CCF-A)</span>}}
+- [https://www.sciencedirect.com/science/article/pii/S0141938225000277 HyperTuneFaaS: A Serverless Framework for Hyperparameter Tuning in Image Processing Models]\n
+Jiantao Zhang, Bojun Ren, Yicheng Fu, Rongbo Ma, *Zinuo Cai*, Weishan Zhang, Ruhui Ma, Jinshan Sun \n
+in Displays, 2025.
 
-\[J12\] Jiantao Zhang, Bojun Ren, Yicheng Fu, Rongbo Ma, {{<span class="underline">Zinuo Cai</span>}}, Weishan Zhang, Ruhui Ma, Jinshan Sun. HyperTuneFaaS: A Serverless Framework for Hyperparameter Tuning in Image Processing Models. Displays. 2025.
+- [https://ieeexplore.ieee.org/document/10732012 FasDL: An Efficient Serverless-Based Training Architecture with Communication Optimization and Resource Configuration] \n
+(CCF-A) \n
+Xinglei Chen\#, *Zinuo Cai\#*, Hanwen Zhang, Ruhui Ma, Rajkumar Buyya \n
+in IEEE Transactions on Computers (TC), 2024.
 
-\[J11\] Xinglei Chen, {{<span class="underline">Zinuo Cai</span>}}, Hanwen Zhang, Ruhui Ma, Rajkumar Buyya. FasDL: An Efficient Serverless-Based Training Architecture with Communication Optimization and Resource Configuration. IEEE Transactions on Computers. 2024. {{<span class="blue">(CCF-A, 共同一作)</span>}}
+- [https://dl.acm.org/doi/10.1145/3701997 MemoriaNova: Optimizing Memory-Aware Model Inference on Edge Devices] \n
+(CCF-A) \n
+Renjun Zhang, Tianming Zhang, *Zinuo Cai*, Dongmei Li, Ruhui Ma, Rajkumar Buyya \n
+in ACM Transactions on Architecture and Code Optimization (TACO), 2024.
 
-\[J10\] Renjun Zhang, Tianming Zhang, {{<span class="underline">Zinuo Cai</span>}}, Dongmei Li, Ruhui Ma, Rajkumar Buyya. MemoriaNova: Optimizing Memory-Aware Model Inference on Edge Devices. ACM Transactions on Architecture and Code Optimization. 2024. {{<span class="blue">(CCF-A)</span>}}
+- [https://ieeexplore.ieee.org/document/10630536 Slob: Suboptimal load balancing scheduling in local heterogeneous gpu clusters for large language model inference] \n
+(中科院2区) \n
+Peiwen Jiang, Haoxin Wang, *Zinuo Cai*, Lintao Gao, Weishan Zhang, Ruhui Ma, Xiaokang Zhou \n
+in IEEE Transactions on Computational Social Systems (TCSS), 2024.
 
-\[J9\] Peiwen Jiang, Haoxin Wang, {{<span class="underline">Zinuo Cai</span>}}, Lintao Gao, Weishan Zhang, Ruhui Ma, Xiaokang Zhou. Slob: Suboptimal load balancing scheduling in local heterogeneous gpu clusters for large language model inference. IEEE Transactions on Computational Social Systems. 2024. {{<span class="blue">(中科院2区)</span>}}
+- [https://ieeexplore.ieee.org/abstract/document/10601537 LLMaaS: Serving Large Language Models on Trusted Serverless Computing Platforms] \n
+*Zinuo Cai*, Rongbo Ma, Yicheng Fu, Weishan Zhang, Ruhui Ma, Haibing Guan \n
+in IEEE Transactions on Artificial Intelligence (TAI), 2024.
 
-\[J8\] {{<span class="underline">Zinuo Cai</span>}}, Rongbo Ma, Yicheng Fu, Weishan Zhang, Ruhui Ma, Haibing Guan. LLMaaS: Serving Large Language Models on Trusted Serverless Computing Platforms. IEEE Transactions on Artificial Intelligence. 2024.
+- [https://ieeexplore.ieee.org/document/10568243 SPSC: Stream Processing Framework Atop Serverless Computing for Industrial Big Data] \n
+(CCF-B, 中科院1区) \n
+*Zinuo Cai*, Zebin Chen, Xinglei Chen, Ruhui Ma, Haibing Guan, Rajkumar Buyya \n
+in IEEE Transactions on Cybernetics (TCYB), 2024.
 
-\[J7\] {{<span class="underline">Zinuo Cai</span>}}, Zebin Chen, Xinglei Chen, Ruhui Ma, Haibing Guan, Rajkumar Buyya. SPSC: Stream Processing Framework Atop Serverless Computing for Industrial Big Data. IEEE Transactions on Cybernetics. 2024. {{<span class="blue">(CCF-B, 中科院1区)</span>}}
+- [https://ieeexplore.ieee.org/abstract/document/10412198 Deep Convolutional Linear Precoder Neural Network for Rate Splitting Strategy of Aerial Computing Networks] \n
+(中科院2区) \n
+Zhijie Wang, Ruhui Ma, Hongjian Shi, *Zinuo Cai*, Liwei Lin, Haibing Guan \n
+in IEEE Transactions on Network Science and Engineering (TNSE), 2024.
 
-\[J6\] Zhijie Wang, Ruhui Ma, Hongjian Shi, {{<span class="underline">Zinuo Cai</span>}}, Liwei Lin, Haibing Guan. Deep Convolutional Linear Precoder Neural Network for Rate Splitting Strategy of Aerial Computing Networks. IEEE Transactions on Network Science and Engineering. 2024. {{<span class="blue">(中科院2区)</span>}}
+- [https://ieeexplore.ieee.org/document/10368082 SMSS: Stateful Model Serving in Metaverse With Serverless Computing and GPU Sharing] \n
+(CCF-A) \n
+*Zinuo Cai*, Zebin Chen, Ruhui Ma, Haibing Guan \n
+in IEEE Journal on Selected Areas in Communications (JSAC), 2023.
 
-\[J5\] {{<span class="underline">Zinuo Cai</span>}}, Zebin Chen, Ruhui Ma, Haibing Guan. SMSS: Stateful Model Serving in Metaverse With Serverless Computing and GPU Sharing. IEEE Journal on Selected Areas in Communications. 2023. {{<span class="blue">(CCF-A)</span>}}
+- [https://ieeexplore.ieee.org/abstract/document/10237322 Sustainable serverless computing with cold-start optimization and automatic workflow resource scheduling] \n
+(中科院2区) \n
+Shanxing Pan, Hongyu Zhao, *Zinuo Cai*, Dongmei Li, Ruhui Ma, Haibing Guan \n
+in IEEE Transactions on Sustainable Computing (TSUSC), 2023.
 
-\[J4\] Shanxing Pan, Hongyu Zhao, {{<span class="underline">Zinuo Cai</span>}}, Dongmei Li, Ruhui Ma, Haibing Guan. Sustainable serverless computing with cold-start optimization and automatic workflow resource scheduling. IEEE Transactions on Sustainable Computing. 2023. {{<span class="blue">(中科院2区)</span>}}
+- [https://ieeexplore.ieee.org/document/10225426 RIDIC: Real-Time Intelligent Transportation System With Dispersed Computing] \n
+(中科院2区) \n
+*Zinuo Cai*, Zebin Chen, Zihan Liu, Quanmin Xie, Ruhui Ma, Haibing Guan \n
+in IEEE Transactions on Intelligent Transportation Systems (TITS), 2023.
 
-\[J3\] {{<span class="underline">Zinuo Cai</span>}}, Zebin Chen, Zihan Liu, Quanmin Xie, Ruhui Ma, Haibing Guan. RIDIC: Real-Time Intelligent Transportation System With Dispersed Computing. IEEE Transactions on Intelligent Transportation Systems. 2023. {{<span class="blue">(中科院2区)</span>}}
+- [https://ieeexplore.ieee.org/abstract/document/10177981 faaShark: An end-to-end network traffic analysis system atop serverless computing platforms] \n
+(中科院2区) \n
+Hongyu Zhao, Shanxing Pan, *Zinuo Cai*, Xinglei Chen, Lingxiao Jin, Honghao Gao, Shaohua Wan, Ruhui Ma, Haibing Guan \n
+in IEEE Transactions on Network Science and Engineering (TNSE), 2023.
 
-\[J2\] Hongyu Zhao, Shanxing Pan, {{<span class="underline">Zinuo Cai</span>}}, Xinglei Chen, Lingxiao Jin, Honghao Gao, Shaohua Wan, Ruhui Ma, Haibing Guan. faaShark: An end-to-end network traffic analysis system atop serverless computing platforms. 2023. {{<span class="blue">(中科院2区)</span>}}
-
-\[J1\] {{<span class="underline">Zinuo Cai</span>}}, Bojun Ren, Ruhui Ma, Haibing Guan, Mengke Tian, Yong Wang. GUARDIAN: A Hardware-Assisted Distributed Framework to Enhance Deep Learning Security. IEEE Transactions on Computational Social Systems. 2023. {{<span class="blue">(中科院2区)</span>}}
+- [https://ieeexplore.ieee.org/abstract/document/10093889 GUARDIAN: A Hardware-Assisted Distributed Framework to Enhance Deep Learning Security] \n
+(中科院2区) \n
+*Zinuo Cai*, Bojun Ren, Ruhui Ma, Haibing Guan, Mengke Tian, Yong Wang \n
+in IEEE Transactions on Computational Social Systems (TCSS), 2023.
