@@ -1,0 +1,11 @@
+site_name: Zinuo Cai
+
+nav:
+  - Home: index.md
+  - Publication: publication.md
+  - Group: group.md
+  - Service: service.md
+  - 中文: zh-cn.md
+
+theme:
+  name: cosmo
