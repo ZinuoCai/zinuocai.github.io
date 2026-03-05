@@ -8,4 +8,4 @@ nav:
   - 中文: zh-cn.md
 
 theme:
-  name: cosmo
+  name: bootstrap4

@@ -1,5 +1,7 @@
 # Zinuo Cai (蔡子诺)
 
+<img src="img/zinuocai.jpg" alt="zinuocai" style="width:20%; display:block; margin:auto;" />
+
 Zinuo Cai is a Ph.D. Candidate in the School of Computer Science at Shanghai Jiao Tong University. He is a member of [AISIG Group](http://aisig.sjtu.edu.cn/), where he conducts his research under the guidance of his advisor, [Prof. Ruhui Ma](https://www.cs.sjtu.edu.cn/jiaoshiml/maruhui.html).
 
 His research interests span three main areas:
