@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
     <head>
+      <script>
+	// Hack for scrolling window when linking to anchor tag with fixed nav header
+        var shiftWindow = function() { scrollBy(0, -75) };
+        window.addEventListener("hashchange", shiftWindow);
+        function load() { if (window.location.hash) shiftWindow(); }
+      </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,98 +15,78 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Group - Zinuo Cai</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/fontawesome.min.css" rel="stylesheet">
-        <link href="../css/brands.min.css" rel="stylesheet">
-        <link href="../css/solid.min.css" rel="stylesheet">
-        <link href="../css/v4-font-face.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/purebasic.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../js/base.js"></script> 
     </head>
 
-    <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="..">Zinuo Cai</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <body class="">
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a href=".." class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../publication/" class="nav-link">Publication</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">Group</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../service/" class="nav-link">Service</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../zh-cn/" class="nav-link">中文</a>
-                            </li>
-                        </ul>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<div class="container">
+	<a class="navbar-brand" href="..">Zinuo Cai</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+	</button>
 
-                    <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../publication/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../service/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+	<div class="collapse navbar-collapse">
+          <!-- Main navigation -->
+          <nav class="nav">
+            <ul class="navbar-nav">
+              <li >
+                <a class="nav-link" href="..">Home</a>
+              </li>
+              <li >
+                <a class="nav-link" href="../publication/">Publication</a>
+              </li>
+              <li class="active">
+                <a class="nav-link" href="./">Group</a>
+              </li>
+              <li >
+                <a class="nav-link" href="../service/">Service</a>
+              </li>
+              <li >
+                <a class="nav-link" href="../zh-cn/">中文</a>
+              </li>
+            </ul>
+          </nav>
 
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
+          <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+		<i class="fa fa-search"></i> Search
+              </a>
+            </li>
+          </ul>
+	</div>
+	</div>
+      </nav><div id="content" class="container">
+        
+      <div class="row">
+        <div class="col-md-9" role="main">
 
+<!-- 
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-bs-level="1"><a href="#group" class="nav-link">Group</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#doctor" class="nav-link">Doctor</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#master" class="nav-link">Master</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+    <li class="breadcrumb-item active" aria-current="page">Group</li>
+  </ol>
+</nav>
+ -->
 
 <h1 id="group">Group</h1>
 <h2 id="doctor">Doctor</h2>
@@ -149,77 +135,113 @@
     Master’s Degree, Shanghai Jiao Tong University, Class of 2025.<br />
     First Employment: 强军计划.</p>
 </li>
-</ul></div>
-            </div>
-        </div>
+</ul>
 
-    <footer class="col-md-12">
-        <hr>
-        
-        <!-- 添加上次更新时间 -->
-        <script>
-        // 在客户端转换时区并显示
-        document.addEventListener('DOMContentLoaded', function() {
-            const utcDate = '2026-02-05 11:34:55.003839+00:00';
-            if (utcDate) {
-                const date = new Date(utcDate);
-                const options = {
-                    year: 'numeric',
-                    month: '2-digit',
-                    day: '2-digit',
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    second: '2-digit',
-                    timeZoneName: 'short'
-                };
-                const formattedDate = date.toLocaleString('zh-CN', options);
-                
-                // 找到更新时间元素并设置内容
-                const updateElement = document.querySelector('.last-updated');
-                if (updateElement) {
-                    updateElement.textContent = 'Last updated: ' + formattedDate;
-                }
+<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+  <!-- <li class="last-updated-holder displayDate loading">
+    <span class="last-updated-text">Last updated:</span>
+    <time role="presentation" datetime="2018-10-25T00:00:00.000Z" data-article-date-source="ms.date"></time>
+  </li> -->
+<!--
+  <li class="readingTime">
+    2 minutes to read
+  </li>
+-->
+  <!-- <li class="contributors-holder">
+    <span class="contributors-text">Contributors</span>
+    <ul class="contributors" data-bi-name="contributors"></ul>
+  </li> -->
+</ul>
+</div>
+        <div class="col-md-3"><div class="navbar-light navbar-expand-md hidden-print sticky-top sticky-offset" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    <div id="toc-collapse" class="navbar-collapse collapse card">
+        <ul class="nav flex-column bs-sidenav">
+            <li class="nav-item main"><a class="nav-link" href="#group">Group</a></li>
+                <li class="nav-item">
+                    <a href="#doctor" class="nav-link">Doctor</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#master" class="nav-link">Master</a>
+                </li>
+        </ul>
+    </div>
+</div></div>
+      </div>
+      </div>
+
+<footer class="col-md-12 text-center">
+    <hr>
+    
+    <!-- 添加上次更新时间 -->
+    <script>
+    // 在客户端转换时区并显示
+    document.addEventListener('DOMContentLoaded', function() {
+        const utcDate = '2026-03-05 07:32:20.372379+00:00';
+        if (utcDate) {
+            const date = new Date(utcDate);
+            const options = {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                timeZoneName: 'short'
+            };
+            const formattedDate = date.toLocaleString('zh-CN', options);
+            
+            // 找到更新时间元素并设置内容
+            const updateElement = document.querySelector('.last-updated');
+            if (updateElement) {
+                updateElement.textContent = 'Last updated: ' + formattedDate;
             }
-        });
-        </script>
-        <p class="last-updated">Last updated: 2026-02-05 11:34:55.003839+00:00 UTC</p>
-        
-        <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-    </footer>
-        <script src="../js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = "..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../js/base.js"></script>
-        <script src="../search/main.js"></script>
+        }
+    });
+    </script>
+    <p class="last-updated">Last updated: 2026-03-05 07:32:20.372379+00:00 UTC</p>
+</footer>
+      <script>
+	var base_url = "..",
+            shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+      </script>
+      <script src="../js/base.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+      <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h4 class="modal-title">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
                     <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+                <div id="mkdocs-search-results"></div>
             </div>
             <div class="modal-footer">
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="h4 modal-title">Keyboard Shortcuts</p>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
               <table class="table">
