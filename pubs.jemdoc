@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{pubs.html}
-= Publications
+= Publication
 
 ~~~
 {}{raw}
@@ -225,13 +225,7 @@
     <div class="pub-venue">in IEEE Transactions on Network Science and Engineering (TNSE), 2024.</div>
   </div>
 </div>
-~~~
 
-== 2023
-
-~~~
-{}{raw}
-<a name="2023"></a>
 <div class="pub-item">
   <div class="pub-tag">[C3]</div>
   <div class="pub-body">
@@ -240,6 +234,13 @@
     <div class="pub-venue">in Proc. of the IEEE International Conference on Computer Design (ICCD), 2024.</div>
   </div>
 </div>
+~~~
+
+== 2023
+
+~~~
+{}{raw}
+<a name="2023"></a>
 
 <div class="pub-item">
   <div class="pub-tag">[C2]</div>
