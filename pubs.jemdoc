@@ -1,0 +1,312 @@
+# jemdoc: menu{MENU}{pubs.html}
+= Publications
+
+~~~
+{}{raw}
+<style>
+.pub-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.pub-nav a {
+  color: #527bbd;
+  text-decoration: none;
+  border: 1px solid #527bbd;
+  border-radius: 3px;
+  padding: 2px 10px;
+  font-size: 0.9em;
+}
+.pub-nav a:hover {
+  background: #527bbd;
+  color: #fff;
+}
+.pub-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+.pub-tag {
+  font-weight: bold;
+  color: #527bbd;
+  white-space: nowrap;
+  min-width: 36px;
+}
+.pub-body .pub-title {
+  font-weight: bold;
+}
+.pub-body .pub-title a {
+  color: #224b8d;
+  text-decoration: none;
+}
+.pub-body .pub-title a:hover {
+  border-bottom: 1px gray dotted;
+}
+.pub-body .pub-authors {
+  color: #333;
+}
+.pub-body .pub-venue {
+  font-style: italic;
+  color: #555;
+}
+.ccf {
+  font-size: 0.78em;
+  color: #527bbd;
+  border: 1px solid #527bbd;
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin-left: 4px;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: normal;
+}
+</style>
+
+<div class="pub-nav">
+  <a href="#2026">2026</a>
+  <a href="#2025">2025</a>
+  <a href="#2024">2024</a>
+  <a href="#2023">2023</a>
+  <a href="#2021">2021</a>
+</div>
+~~~
+
+
+== 2026
+
+~~~
+{}{raw}
+<a name="2026"></a>
+<div class="pub-item">
+  <div class="pub-tag">[C5]</div>
+  <div class="pub-body">
+    <div class="pub-title">FedCompass: Federated Clustered and Periodic Aggregation Framework for Hybrid Classical-Quantum Models <span class="ccf">CCF-B</span></div>
+    <div class="pub-authors">Yueheng Wang, Xing He, <strong>Zinuo Cai</strong>, Rui Zhang, Ruhui Ma, Yuan Liu and Rajkumar Buyya</div>
+    <div class="pub-venue">in Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026.</div>
+  </div>
+</div>
+~~~
+
+== 2025
+
+~~~
+{}{raw}
+<a name="2025"></a>
+<div class="pub-item">
+  <div class="pub-tag">[C4]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://dl.acm.org/doi/abs/10.1109/DAC63849.2025.11132894">AARC: Automated Affinity-aware Resource Configuration for Serverless Workflows</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Lingxiao Jin<sup>#</sup>, <strong>Zinuo Cai</strong><sup>#</sup>, Zebin Chen, Hongyu Zhao and Ruhui Ma</div>
+    <div class="pub-venue">in Proc. of the Design Automation Conference (DAC), 2025.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J18]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.70048">QFI-Opt: Communication-Efficient Quantum Federated Learning via Quantum Fisher Information</a> <span class="ccf">CCF-B</span></div>
+    <div class="pub-authors">Rui Zhang, Yucheng Wang, Xing He, <strong>Zinuo Cai</strong>, Yicheng Di, Jiayu Bao, Jiansong Fan, Zhongle Qu</div>
+    <div class="pub-venue">in Software: Practice and Experience (SPE), 2025.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J17]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11304192">FedACL: A Collaborative Federated Fine-Tuning Framework for Large Language Models with AWLoRA and Contrastive Learning</a></div>
+    <div class="pub-authors">Zijie Zhao<sup>#</sup>, Zhenshuo Zhang<sup>#</sup>, <strong>Zinuo Cai</strong>, Yiming Qiang, Tianqi Wu, Baoheng Zhang, Ruhui Ma, Yuan Liu</div>
+    <div class="pub-venue">in IEEE Transactions on Computational Social Systems (TCSS), 2025.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J16]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11230091">HeShare: Energy-Aware and Efficient Multi-Task GPU Sharing in Heterogeneous GPU-based Computing Systems</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Zhuolong Jiang, <strong>Zinuo Cai</strong>, Hongyu Zhao, Baoheng Zhang, Tianqi Wu, Yiming Qiang, Ruhui Ma, Haibing Guan, Rajkumar Buyya</div>
+    <div class="pub-venue">in IEEE Transactions on Computers (TC), 2025.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J15]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3747846">Ephemera: Accelerating I/O-Intensive Serverless Workloads with a Harvested In-memory File System</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Lingxiao Jin<sup>#</sup>, <strong>Zinuo Cai</strong><sup>#</sup>, Haoxin Wang, Zongpu Zhang, Ruhui Ma, Haibing Guan, Yuan Liu, Rajkumar Buyya</div>
+    <div class="pub-venue">in ACM Transactions on Architecture and Code Optimization (TACO), 2025.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J14]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10912752">SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Junhan Liu<sup>#</sup>, <strong>Zinuo Cai</strong><sup>#</sup>, Yumou Liu, Hao Li, Zongpu Zhang, Ruhui Ma, Rajkumar Buyya</div>
+    <div class="pub-venue">in IEEE Transactions on Parallel and Distributed Systems (TPDS), 2025.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J13]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10993400">HWDSQP: a Historical Weighted and Dynamic Scheduling Quantum Protocol to Enhance Communication Reliability</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Liwei Lin<sup>#</sup>, Rongbo Ma<sup>#</sup>, Zejian Wang, <strong>Zinuo Cai</strong>, Haochen Xu, Baoheng Zhang, Ruhui Ma, Rajkumar Buyya</div>
+    <div class="pub-venue">in IEEE Journal on Selected Areas in Communications (JSAC), 2025.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J12]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S0141938225000277">HyperTuneFaaS: A Serverless Framework for Hyperparameter Tuning in Image Processing Models</a></div>
+    <div class="pub-authors">Jiantao Zhang, Bojun Ren, Yicheng Fu, Rongbo Ma, <strong>Zinuo Cai</strong>, Weishan Zhang, Ruhui Ma, Jinshan Sun</div>
+    <div class="pub-venue">in Displays, 2025.</div>
+  </div>
+</div>
+~~~
+
+== 2024
+
+~~~
+{}{raw}
+<a name="2024"></a>
+<div class="pub-item">
+  <div class="pub-tag">[J11]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10732012">FasDL: An Efficient Serverless-Based Training Architecture with Communication Optimization and Resource Configuration</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Xinglei Chen<sup>#</sup>, <strong>Zinuo Cai</strong><sup>#</sup>, Hanwen Zhang, Ruhui Ma, Rajkumar Buyya</div>
+    <div class="pub-venue">in IEEE Transactions on Computers (TC), 2024.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J10]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3701997">MemoriaNova: Optimizing Memory-Aware Model Inference on Edge Devices</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Renjun Zhang, Tianming Zhang, <strong>Zinuo Cai</strong>, Dongmei Li, Ruhui Ma, Rajkumar Buyya</div>
+    <div class="pub-venue">in ACM Transactions on Architecture and Code Optimization (TACO), 2024.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J9]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10630536">Slob: Suboptimal load balancing scheduling in local heterogeneous gpu clusters for large language model inference</a></div>
+    <div class="pub-authors">Peiwen Jiang, Haoxin Wang, <strong>Zinuo Cai</strong>, Lintao Gao, Weishan Zhang, Ruhui Ma, Xiaokang Zhou</div>
+    <div class="pub-venue">in IEEE Transactions on Computational Social Systems (TCSS), 2024.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J8]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10601537">LLMaaS: Serving Large Language Models on Trusted Serverless Computing Platforms</a></div>
+    <div class="pub-authors"><strong>Zinuo Cai</strong>, Rongbo Ma, Yicheng Fu, Weishan Zhang, Ruhui Ma, Haibing Guan</div>
+    <div class="pub-venue">in IEEE Transactions on Artificial Intelligence (TAI), 2024.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J7]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10568243">SPSC: Stream Processing Framework Atop Serverless Computing for Industrial Big Data</a></div>
+    <div class="pub-authors"><strong>Zinuo Cai</strong>, Zebin Chen, Xinglei Chen, Ruhui Ma, Haibing Guan, Rajkumar Buyya</div>
+    <div class="pub-venue">in IEEE Transactions on Cybernetics (TCYB), 2024.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J6]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10412198">Deep Convolutional Linear Precoder Neural Network for Rate Splitting Strategy of Aerial Computing Networks</a></div>
+    <div class="pub-authors">Zhijie Wang, Ruhui Ma, Hongjian Shi, <strong>Zinuo Cai</strong>, Liwei Lin, Haibing Guan</div>
+    <div class="pub-venue">in IEEE Transactions on Network Science and Engineering (TNSE), 2024.</div>
+  </div>
+</div>
+~~~
+
+== 2023
+
+~~~
+{}{raw}
+<a name="2023"></a>
+<div class="pub-item">
+  <div class="pub-tag">[C3]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10818154">Hermes: Memory-Efficient Pipeline Inference for Large Models on Edge Devices</a> <span class="ccf">CCF-B</span></div>
+    <div class="pub-authors">Xueyuan Han, <strong>Zinuo Cai</strong>, Yichu Zhang, Chongxin Fan, Junhan Liu, Ruhui Ma, Rajkumar Buyya</div>
+    <div class="pub-venue">in Proc. of the IEEE International Conference on Computer Design (ICCD), 2024.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[C2]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3580305.3599527">Towards Variance Reduction for Reinforcement Learning of Industrial Decision-making Tasks: A Bi-Critic based Demand-Constraint Decoupling Approach</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Jianyong Yuan, Jiayi Zhang, <strong>Zinuo Cai</strong>, Junchi Yan</div>
+    <div class="pub-venue">in Proc. of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2024.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J5]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10368082">SMSS: Stateful Model Serving in Metaverse With Serverless Computing and GPU Sharing</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors"><strong>Zinuo Cai</strong>, Zebin Chen, Ruhui Ma, Haibing Guan</div>
+    <div class="pub-venue">in IEEE Journal on Selected Areas in Communications (JSAC), 2023.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J4]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10237322">Sustainable serverless computing with cold-start optimization and automatic workflow resource scheduling</a></div>
+    <div class="pub-authors">Shanxing Pan, Hongyu Zhao, <strong>Zinuo Cai</strong>, Dongmei Li, Ruhui Ma, Haibing Guan</div>
+    <div class="pub-venue">in IEEE Transactions on Sustainable Computing (TSUSC), 2023.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J3]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10225426">RIDIC: Real-Time Intelligent Transportation System With Dispersed Computing</a></div>
+    <div class="pub-authors"><strong>Zinuo Cai</strong>, Zebin Chen, Zihan Liu, Quanmin Xie, Ruhui Ma, Haibing Guan</div>
+    <div class="pub-venue">in IEEE Transactions on Intelligent Transportation Systems (TITS), 2023.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J2]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10177981">faaShark: An end-to-end network traffic analysis system atop serverless computing platforms</a></div>
+    <div class="pub-authors">Hongyu Zhao, Shanxing Pan, <strong>Zinuo Cai</strong>, Xinglei Chen, Lingxiao Jin, Honghao Gao, Shaohua Wan, Ruhui Ma, Haibing Guan</div>
+    <div class="pub-venue">in IEEE Transactions on Network Science and Engineering (TNSE), 2023.</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-tag">[J1]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10093889">GUARDIAN: A Hardware-Assisted Distributed Framework to Enhance Deep Learning Security</a></div>
+    <div class="pub-authors"><strong>Zinuo Cai</strong>, Bojun Ren, Ruhui Ma, Haibing Guan, Mengke Tian, Yong Wang</div>
+    <div class="pub-venue">in IEEE Transactions on Computational Social Systems (TCSS), 2023.</div>
+  </div>
+</div>
+~~~
+
+== 2021
+
+~~~
+{}{raw}
+<a name="2021"></a>
+<div class="pub-item">
+  <div class="pub-tag">[C1]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://www.ijcai.org/proceedings/2021/0083.pdf">Themis: A Fair Evaluation Platform for Computer Vision Competitions</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors"><strong>Zinuo Cai</strong><sup>#</sup>, Jianyong Yuan<sup>#</sup>, Yang Hua, Tao Song, Hao Wang, Zhengui Xue, Ningxin Hu, Jonathan Ding, Ruhui Ma, Mohammad Reza Haghighat, Haibing Guan</div>
+    <div class="pub-venue">in Proc. of the International Joint Conference on Artificial Intelligence (IJCAI), 2021.</div>
+  </div>
+</div>
+~~~

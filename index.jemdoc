@@ -1,0 +1,38 @@
+# jemdoc: menu{MENU}{index.html}
+= Zinuo Cai (蔡子诺)
+
+~~~
+{}{img_left}{images/zinuocai.jpg}{alt text}{114px}{160px}
+[https://zinuocai.github.io Zinuo Cai], Ph.D. Candidate \n
+[http://aisig.sjtu.edu.cn/ AISIG Group] \n
+School of Computer Science \n
+Shanghai Jiao Tong University \n
+Email: kingczn1314@sjtu.edu.cn [https://scholar.google.com/citations?user=VfJwNnoAAAAJ&hl=zh-CN Google Scholar] \n
+~~~
+
+== About Me
+
+I am a Ph.D. Candidate in the School of Computer Science at [https://www.sjtu.edu.cn/ Shanghai Jiao Tong University], advised by [https://www.cs.sjtu.edu.cn/jiaoshiml/maruhui.html Prof. Ruhui Ma] at the [http://aisig.sjtu.edu.cn/ AISIG Group]. I received my B.S. degree from the School of Software at Shanghai Jiao Tong University in 2021, and I expect to graduate with my Ph.D. in March 2027.
+
+My research spans three main areas:
+
+- *Serverless Computing*: AARC (DAC'25), Ephemera (TACO'25), SMORE (TPDS'25), FasDL (TC'24), SMSS (JSAC'23).
+- *Large Model Inference*: Hermes (ICCD'24).
+- *Quantum Computing*: FedCompass (ICASSP'26), HWDSQP (JSAC'25), QFI-Opt (SPE'25).
+
+== Education
+
+- Ph.D. Candidate in Computer Science, Shanghai Jiao Tong University, Sep. 2021 - Mar. 2027 (expected)
+- B.S. in Software Engineering, Shanghai Jiao Tong University, Sep. 2017 - Jun. 2021
+
+== Research Interests
+
+- Serverless Computing, Cloud Computing, Edge Computing
+- Large Model Inference, Federated Learning
+- Quantum Computing, Quantum Communication
+
+== Visitors
+~~~
+{}{raw}
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=g3PYnlnNkk9R-tLnUz1lDJ1Qe94TKwuiYr4aCTOcbxA&cl=ffffff&w=a"></script>
+~~~
