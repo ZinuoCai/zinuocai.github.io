@@ -4,6 +4,7 @@
 <head>
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Group</title>
 </head>
@@ -46,7 +47,7 @@
 <li><p><b>2023/09&ndash;2026/06: Zihan Liu (刘子涵)</b><br />
 Master's Degree, Shanghai Jiao Tong University, Class of 2026.<br />
 First Employment: 中国北方工业公司.<br />
-Collaboration Outputs: Master's Thesis: <a href="thesis/刘子涵-面向量子任务调度的云平台设计与优化.pdf">刘子涵-面向量子任务调度的云平台设计与优化</a>.</p>
+Collaboration Outputs: Master's Thesis: <a href="thesis/刘子涵-面向量子任务调度的云平台设计与优化.pdf">面向量子任务调度的云平台设计与优化</a>.</p>
 </li>
 </ul>
 <ul>
@@ -98,11 +99,35 @@ First Employment: 强军计划.</p>
 </ul>
 <div id="footer">
 <div id="footer-text">
-Last updated: 2026-05-15 22:04:04 GMT+8.
+Last updated: 2026-05-15 22:21:54 GMT+8.
 </div>
 </div>
 </td>
 </tr>
 </table>
+<a href="#" id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</a>
+<script type="text/javascript">
+(function(){
+  var btn = document.getElementById('back-to-top');
+  if (!btn) return;
+  function toggle(){
+    if ((window.pageYOffset || document.documentElement.scrollTop) > 200) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  }
+  window.addEventListener('scroll', toggle, { passive: true });
+  toggle();
+  btn.addEventListener('click', function(e){
+    e.preventDefault();
+    if ('scrollBehavior' in document.documentElement.style) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      window.scrollTo(0, 0);
+    }
+  });
+})();
+</script>
 </body>
 </html>

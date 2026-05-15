@@ -365,3 +365,142 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    table#tlayout,
+    table#tlayout > tbody,
+    table#tlayout > tbody > tr,
+    table#tlayout > tbody > tr > td {
+        display: block;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    #layout-menu {
+        white-space: normal;
+        border-left: none;
+        border-right: none;
+        padding: 0.5em 12px;
+        margin-bottom: 0.8em;
+    }
+
+    #layout-menu div.menu-category {
+        margin-top: 0.4em;
+        padding-bottom: 0.3em;
+    }
+
+    #layout-menu div.menu-item {
+        display: inline-block;
+        padding-left: 0;
+        text-indent: 0;
+        margin-right: 0.8em;
+    }
+
+    #layout-menu a {
+        margin-left: 0;
+        line-height: 1.8em;
+    }
+
+    #layout-content {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    h1 { font-size: 145%; }
+    h2 { font-size: 118%; }
+    h3 { font-size: 105%; }
+
+    /* Stack the profile image and bio block */
+    table.imgtable,
+    table.imgtable > tbody,
+    table.imgtable > tbody > tr,
+    table.imgtable > tbody > tr > td {
+        display: block;
+        width: 100% !important;
+        padding: 0;
+    }
+
+    table.imgtable img {
+        display: block;
+        margin: 0 auto 0.8em auto;
+        max-width: 40%;
+        height: auto !important;
+    }
+
+    /* Generic table overflow guard for content tables */
+    #layout-content table {
+        max-width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Publication list items: stack tag above body on narrow screens */
+    .pub-item {
+        flex-direction: column;
+        gap: 2px !important;
+    }
+
+    .pub-tag {
+        min-width: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body { font-size: 95%; }
+    #layout-content { padding-left: 8px; padding-right: 8px; }
+    table.imgtable img { max-width: 55%; }
+}
+
+/* Back-to-top floating button */
+#back-to-top {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #527bbd;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease;
+    z-index: 9999;
+    text-decoration: none;
+}
+
+#back-to-top:hover {
+    background: #224b8d;
+    border-bottom: none;
+}
+
+#back-to-top.visible {
+    opacity: 0.85;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+    #back-to-top {
+        right: 14px;
+        bottom: 14px;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 18px;
+    }
+}
+
+@media print {
+    #back-to-top { display: none; }
+}

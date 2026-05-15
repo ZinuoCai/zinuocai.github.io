@@ -137,7 +137,8 @@ def standardconf():
   <head>
   <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   [defaultcss]
   <link rel="stylesheet" href="jemdoc.css" type="text/css" />
   
@@ -213,6 +214,30 @@ def standardconf():
   </div>
   
   [bodyend]
+  <a href="#" id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</a>
+  <script type="text/javascript">
+  (function(){
+    var btn = document.getElementById('back-to-top');
+    if (!btn) return;
+    function toggle(){
+      if ((window.pageYOffset || document.documentElement.scrollTop) > 200) {
+        btn.classList.add('visible');
+      } else {
+        btn.classList.remove('visible');
+      }
+    }
+    window.addEventListener('scroll', toggle, { passive: true });
+    toggle();
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      if ('scrollBehavior' in document.documentElement.style) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        window.scrollTo(0, 0);
+      }
+    });
+  })();
+  </script>
   </body>
   </html>
   
