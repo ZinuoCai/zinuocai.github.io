@@ -1,27 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Publication</title>
-</head>
-<body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Home</div>
-<div class="menu-item"><a href="index.html">About</a></div>
-<div class="menu-item"><a href="pubs.html" class="current">Publication</a></div>
-<div class="menu-item"><a href="service.html">Service</a></div>
-<div class="menu-item"><a href="group.html">Group</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>Publication</h1>
-</div>
+# jemdoc: menu{MENU}{pubs.html}
+= Publication
+
+~~~
+{}{raw}
 <div class="pub-nav">
   <a href="#2026">2026</a>
   <a href="#2025">2025</a>
@@ -29,7 +10,13 @@
   <a href="#2023">2023</a>
   <a href="#2021">2021</a>
 </div>
-<h2>2026</h2>
+~~~
+
+
+== 2026
+
+~~~
+{}{raw}
 <a name="2026"></a>
 
 <div class="pub-item">
@@ -58,7 +45,12 @@
     <div class="pub-venue">in Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026.</div>
   </div>
 </div>
-<h2>2025</h2>
+~~~
+
+== 2025
+
+~~~
+{}{raw}
 <a name="2025"></a>
 <div class="pub-item">
   <div class="pub-tag">[C4]</div>
@@ -131,7 +123,12 @@
     <div class="pub-venue">in Displays, 2025.</div>
   </div>
 </div>
-<h2>2024</h2>
+~~~
+
+== 2024
+
+~~~
+{}{raw}
 <a name="2024"></a>
 <div class="pub-item">
   <div class="pub-tag">[J11]</div>
@@ -195,7 +192,12 @@
     <div class="pub-venue">in Proc. of the IEEE International Conference on Computer Design (ICCD), 2024.</div>
   </div>
 </div>
-<h2>2023</h2>
+~~~
+
+== 2023
+
+~~~
+{}{raw}
 <a name="2023"></a>
 
 <div class="pub-item">
@@ -251,7 +253,12 @@
     <div class="pub-venue">in IEEE Transactions on Computational Social Systems (TCSS), 2023.</div>
   </div>
 </div>
-<h2>2021</h2>
+~~~
+
+== 2021
+
+~~~
+{}{raw}
 <a name="2021"></a>
 <div class="pub-item">
   <div class="pub-tag">[C1]</div>
@@ -261,15 +268,4 @@
     <div class="pub-venue">in Proc. of the International Joint Conference on Artificial Intelligence (IJCAI), 2021.</div>
   </div>
 </div>
-<div id="footer">
-<div id="footer-text">
-Last updated: 2026-06-10 16:34:04 GMT+8.
-</div>
-</div>
-</td>
-</tr>
-</table>
-<a href="#" id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</a>
-<script src="back-to-top.js"></script>
-</body>
-</html>
+~~~
