@@ -215,29 +215,7 @@ def standardconf():
   
   [bodyend]
   <a href="#" id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</a>
-  <script type="text/javascript">
-  (function(){
-    var btn = document.getElementById('back-to-top');
-    if (!btn) return;
-    function toggle(){
-      if ((window.pageYOffset || document.documentElement.scrollTop) > 200) {
-        btn.classList.add('visible');
-      } else {
-        btn.classList.remove('visible');
-      }
-    }
-    window.addEventListener('scroll', toggle, { passive: true });
-    toggle();
-    btn.addEventListener('click', function(e){
-      e.preventDefault();
-      if ('scrollBehavior' in document.documentElement.style) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      } else {
-        window.scrollTo(0, 0);
-      }
-    });
-  })();
-  </script>
+  <script src="back-to-top.js"></script>
   </body>
   </html>
   
