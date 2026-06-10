@@ -81,9 +81,18 @@
 <a name="2026"></a>
 
 <div class="pub-item">
+  <div class="pub-tag">[J20]</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="">FAASHARE: Enabling Generic Low-Latency and SLO-Aware GPU Sharing in Serverless Computing</a> <span class="ccf">CCF-A</span></div>
+    <div class="pub-authors">Zhuolong Jiang<sup>#</sup>, <strong>Zinuo Cai</strong><sup>#</sup>, Yumou Liu, Ruhui Ma, and Rajkumar Buyya</div>
+    <div class="pub-venue">in IEEE Transactions on Parallel and Distributed Systems (TPDS), 2026.</div>
+  </div>
+</div>
+
+<div class="pub-item">
   <div class="pub-tag">[J19]</div>
   <div class="pub-body">
-    <div class="pub-title">MMK: A Hybrid Scheduling Framework for Fine-Grained GPU Sharing for Deep Learning Applications <span class="ccf">CCF-A</span></div>
+    <div class="pub-title"><a href="">MMK: A Hybrid Scheduling Framework for Fine-Grained GPU Sharing for Deep Learning Applications</a> <span class="ccf">CCF-A</span></div>
     <div class="pub-authors">Zhuolong Jiang, <strong>Zinuo Cai</strong>, Zizong Wang, Ruhui Ma, Haibing Guan and Rajkumar Buyya</div>
     <div class="pub-venue">in ACM Transactions on Architecture and Code Optimization (TACO), 2026.</div>
   </div>
@@ -92,7 +101,7 @@
 <div class="pub-item">
   <div class="pub-tag">[C5]</div>
   <div class="pub-body">
-    <div class="pub-title">FedCompass: Federated Clustered and Periodic Aggregation Framework for Hybrid Classical-Quantum Models <span class="ccf">CCF-B</span></div>
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11460735">FedCompass: Federated Clustered and Periodic Aggregation Framework for Hybrid Classical-Quantum Models</a> <span class="ccf">CCF-B</span></div>
     <div class="pub-authors">Yueheng Wang, Xing He, <strong>Zinuo Cai</strong>, Rui Zhang, Ruhui Ma, Yuan Liu and Rajkumar Buyya</div>
     <div class="pub-venue">in Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026.</div>
   </div>
